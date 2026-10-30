@@ -3,27 +3,321 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ForgeNexa — Open Developer Tools Ecosystem</title>
-    <meta name="description" content="ForgeNexa is an open-source, local-first ecosystem of independent developer tools including Forge IDE, Forge API, Forge Terminal, and Forge Git." />
+    <title>ForgeNexa — Open-Source Developer Tools Ecosystem</title>
+    <meta name="description" content="ForgeNexa is an open-source, local-first ecosystem of independent developer tools including Forge IDE, Forge API, Forge Terminal, Forge Git, and Forge Hub." />
+    <meta name="keywords" content="ForgeNexa, Forge IDE, Forge API, Forge Terminal, Forge Git, Forge Hub, Forge Core, open source developer tools, Go desktop tools, Monaco code editor, REST API client, terminal emulator, git GUI, developer workbench" />
+    <meta name="author" content="ForgeNexa" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://forgenexa.github.io/" />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://forgenexa.github.io/" />
-    <meta property="og:title" content="ForgeNexa — Open Developer Tools Ecosystem" />
-    <meta property="og:description" content="Independent, high-performance developer tools engineered for modern software teams." />
+    <meta property="og:title" content="ForgeNexa — Open-Source Developer Tools Ecosystem" />
+    <meta property="og:description" content="Independent, high-performance developer tools engineered for modern software teams. Powered by Go systems foundations and React 19." />
     <meta property="og:image" content="https://forgenexa.github.io/og-image.svg" />
+    <meta property="og:site_name" content="ForgeNexa" />
 
-    <!-- Twitter -->
+    <!-- Twitter Card -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://forgenexa.github.io/" />
-    <meta property="twitter:title" content="ForgeNexa — Open Developer Tools Ecosystem" />
-    <meta property="twitter:description" content="Independent, high-performance developer tools engineered for modern software teams." />
+    <meta property="twitter:title" content="ForgeNexa — Open-Source Developer Tools Ecosystem" />
+    <meta property="twitter:description" content="Independent, high-performance developer tools engineered for modern software teams. Powered by Go systems foundations and React 19." />
     <meta property="twitter:image" content="https://forgenexa.github.io/og-image.svg" />
 
+    <!-- Google Search Console Verification Placeholder -->
+    <meta name="google-site-verification" content="verification-token-placeholder" />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://forgenexa.github.io/#organization",
+          "name": "ForgeNexa",
+          "url": "https://forgenexa.github.io/",
+          "logo": "https://forgenexa.github.io/favicon.svg",
+          "sameAs": [
+            "https://github.com/ForgeNexa"
+          ],
+          "description": "ForgeNexa develops an open-source, local-first ecosystem of independent developer tools including Forge IDE, Forge API, Forge Terminal, Forge Git, and Forge Hub."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://forgenexa.github.io/#website",
+          "url": "https://forgenexa.github.io/",
+          "name": "ForgeNexa",
+          "publisher": {
+            "@id": "https://forgenexa.github.io/#organization"
+          },
+          "description": "Open-source developer tools ecosystem featuring fast, local-first code editors, API clients, terminal emulators, and git managers."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://forgenexa.github.io/#forge-ide",
+          "name": "Forge IDE",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "macOS, Linux, Windows",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://github.com/ForgeNexa/forge-ide",
+          "description": "Extensible, high-performance code editor featuring Monaco Editor, Go daemon background intelligence, multi-tab layout, IntelliJ-style bottom panels, and Language Server Protocol support."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://forgenexa.github.io/#forge-api",
+          "name": "Forge API",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "macOS, Linux, Windows",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://github.com/ForgeNexa/forge-api",
+          "description": "Independent REST and gRPC API client powered by a Go execution engine with connection pooling, precise telemetry, and a React 19 workbench."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://forgenexa.github.io/#forge-terminal",
+          "name": "Forge Terminal",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "macOS, Linux, Windows",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://github.com/ForgeNexa/forge-terminal",
+          "description": "Multiplexed terminal emulator with genuine OS PTY sessions, xterm.js rendering, dynamic pane splitting, and process lifecycle supervision."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://forgenexa.github.io/#forge-git",
+          "name": "Forge Git",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "macOS, Linux, Windows",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://github.com/ForgeNexa/forge-git",
+          "description": "Visual Git client with topological commit graph traversal, multi-file staging manager, side-by-side diff inspector, and branch switching."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://forgenexa.github.io/#forge-hub",
+          "name": "Forge Hub",
+          "applicationCategory": "DeveloperApplication",
+          "operatingSystem": "macOS, Linux, Windows",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "url": "https://github.com/ForgeNexa/forge-hub",
+          "description": "Central mission-control launcher and workspace supervisor that auto-detects installed Forge tools and active developer projects."
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "@id": "https://forgenexa.github.io/#forge-core",
+          "name": "Forge Core",
+          "programmingLanguage": "Go",
+          "codeRepository": "https://github.com/ForgeNexa/forge-core",
+          "description": "Reusable Go systems foundation providing bounded worker pools, AES-256-GCM encryption, safe file operations, and git operations."
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="bg-[#0F1115] text-[#C9D1D9]">
-    <div id="root"></div>
+    <!-- Pre-rendered Semantic HTML for Search Engines & Wave 1 Crawler Indexing -->
+    <div id="root">
+      <header role="banner" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #30363D;">
+        <div>
+          <a href="/" style="font-size: 1.5rem; font-weight: bold; color: #58A6FF; text-decoration: none;">ForgeNexa</a>
+          <span style="font-size: 0.875rem; color: #8B949E; margin-left: 0.5rem;">Open Developer Tools Ecosystem</span>
+        </div>
+        <nav role="navigation" style="display: flex; gap: 1.5rem;">
+          <a href="/#/products" style="color: #C9D1D9; text-decoration: none;">Products</a>
+          <a href="/#/ide" style="color: #C9D1D9; text-decoration: none;">Forge IDE</a>
+          <a href="/#/api" style="color: #C9D1D9; text-decoration: none;">Forge API</a>
+          <a href="/#/terminal" style="color: #C9D1D9; text-decoration: none;">Forge Terminal</a>
+          <a href="/#/git" style="color: #C9D1D9; text-decoration: none;">Forge Git</a>
+          <a href="/#/docs" style="color: #C9D1D9; text-decoration: none;">Docs</a>
+          <a href="https://github.com/ForgeNexa" style="color: #58A6FF; text-decoration: none;" rel="noopener noreferrer">GitHub</a>
+        </nav>
+      </header>
+
+      <main role="main" style="max-width: 1200px; margin: 0 auto; padding: 3rem 1.5rem;">
+        <section style="text-align: center; margin-bottom: 4rem;">
+          <h1 style="font-size: 2.75rem; font-weight: 800; color: #F0F6FC; margin-bottom: 1.25rem;">
+            ForgeNexa — Open Developer Tools Ecosystem
+          </h1>
+          <p style="font-size: 1.25rem; color: #8B949E; max-width: 800px; margin: 0 auto 2rem auto; line-height: 1.6;">
+            A professional suite of independent, local-first developer tools built with high-performance Go engines, React 19, and modern systems architecture. Free, open source, and privacy-respecting by design.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 1rem;">
+            <a href="https://github.com/ForgeNexa" style="background: #238636; color: #FFFFFF; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600;">
+              Explore on GitHub
+            </a>
+            <a href="/#/products" style="background: #21262D; color: #C9D1D9; border: 1px solid #30363D; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600;">
+              View Applications
+            </a>
+          </div>
+        </section>
+
+        <section id="products" style="margin-bottom: 4rem;">
+          <h2 style="font-size: 2rem; font-weight: 700; color: #F0F6FC; border-bottom: 1px solid #30363D; padding-bottom: 0.75rem; margin-bottom: 2rem;">
+            Ecosystem Applications
+          </h2>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
+            <!-- Forge IDE -->
+            <article style="background: #161B22; border: 1px solid #30363D; border-radius: 8px; padding: 1.5rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 600; color: #58A6FF; margin-top: 0;">
+                <a href="https://github.com/ForgeNexa/forge-ide" style="color: inherit; text-decoration: none;">Forge IDE</a>
+              </h3>
+              <p style="color: #8B949E; line-height: 1.5;">
+                A fast, local-first code editor combining the Monaco Editor with a dedicated Go daemon for background workspace indexing, multi-tab layout, IntelliJ-style collapsible bottom panels, and Language Server Protocol (LSP) diagnostics.
+              </p>
+              <ul style="color: #C9D1D9; padding-left: 1.25rem; font-size: 0.875rem;">
+                <li>Monaco code editor with multi-language syntax highlighting</li>
+                <li>Go daemon (<code style="background: #0D1117; padding: 2px 4px; border-radius: 4px;">forge-daemon</code>) for AST analysis &amp; file events</li>
+                <li>IntelliJ-inspired bottom panels: Terminal, Problems, Output</li>
+                <li>100% local-first data storage with zero telemetry</li>
+              </ul>
+            </article>
+
+            <!-- Forge API -->
+            <article style="background: #161B22; border: 1px solid #30363D; border-radius: 8px; padding: 1.5rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 600; color: #58A6FF; margin-top: 0;">
+                <a href="https://github.com/ForgeNexa/forge-api" style="color: inherit; text-decoration: none;">Forge API</a>
+              </h3>
+              <p style="color: #8B949E; line-height: 1.5;">
+                An interactive API client engineered for high-throughput testing and debugging. Powered by a high-concurrency Go execution engine with persistent connection pooling, sub-millisecond telemetry, and an intuitive React 19 workbench.
+              </p>
+              <ul style="color: #C9D1D9; padding-left: 1.25rem; font-size: 0.875rem;">
+                <li>High-concurrency Go HTTP execution engine</li>
+                <li>DNS resolution, TLS handshake, and latency breakdown</li>
+                <li>Environment variables with AES-256 encrypted secrets</li>
+                <li>Export to cURL, Go, Python, and JavaScript snippets</li>
+              </ul>
+            </article>
+
+            <!-- Forge Terminal -->
+            <article style="background: #161B22; border: 1px solid #30363D; border-radius: 8px; padding: 1.5rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 600; color: #58A6FF; margin-top: 0;">
+                <a href="https://github.com/ForgeNexa/forge-terminal" style="color: inherit; text-decoration: none;">Forge Terminal</a>
+              </h3>
+              <p style="color: #8B949E; line-height: 1.5;">
+                A multiplexed terminal emulator delivering authentic pseudoterminal (PTY) sessions via a Go supervisor process. Featuring GPU-accelerated xterm.js rendering, horizontal and vertical pane splits, and robust lifecycle control.
+              </p>
+              <ul style="color: #C9D1D9; padding-left: 1.25rem; font-size: 0.875rem;">
+                <li>Authentic OS PTY allocations using <code style="background: #0D1117; padding: 2px 4px; border-radius: 4px;">creack/pty</code></li>
+                <li>Flexible grid splitting with independent scrollback buffers</li>
+                <li>Process supervisor preventing orphaned background processes</li>
+                <li>Custom color themes and font ligatures support</li>
+              </ul>
+            </article>
+
+            <!-- Forge Git -->
+            <article style="background: #161B22; border: 1px solid #30363D; border-radius: 8px; padding: 1.5rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 600; color: #58A6FF; margin-top: 0;">
+                <a href="https://github.com/ForgeNexa/forge-git" style="color: inherit; text-decoration: none;">Forge Git</a>
+              </h3>
+              <p style="color: #8B949E; line-height: 1.5;">
+                A visual Git client built for speed and clarity. Features topological commit graph traversal, multi-file partial hunk staging, side-by-side visual diffs, and branch management without the bloat of web wrappers.
+              </p>
+              <ul style="color: #C9D1D9; padding-left: 1.25rem; font-size: 0.875rem;">
+                <li>Real-time topological commit DAG visualization</li>
+                <li>Hunk-level staging and interactive diff viewer</li>
+                <li>Safe git operations powered by porcelain Go wrappers</li>
+                <li>Instant branch switching, stashing, and conflict detection</li>
+              </ul>
+            </article>
+
+            <!-- Forge Hub -->
+            <article style="background: #161B22; border: 1px solid #30363D; border-radius: 8px; padding: 1.5rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 600; color: #58A6FF; margin-top: 0;">
+                <a href="https://github.com/ForgeNexa/forge-hub" style="color: inherit; text-decoration: none;">Forge Hub</a>
+              </h3>
+              <p style="color: #8B949E; line-height: 1.5;">
+                The central mission-control application launcher for the ForgeNexa developer ecosystem. Auto-discovers installed Forge tools, scans workspace repositories, and orchestrates cross-tool workflows.
+              </p>
+              <ul style="color: #C9D1D9; padding-left: 1.25rem; font-size: 0.875rem;">
+                <li>Automated <code style="background: #0D1117; padding: 2px 4px; border-radius: 4px;">$PATH</code> binary detection for all Forge tools</li>
+                <li>Recent workspace and git project quick-switcher</li>
+                <li>Process status and daemon lifecycle telemetry</li>
+                <li>Centralized developer profile configuration</li>
+              </ul>
+            </article>
+
+            <!-- Forge Core -->
+            <article style="background: #161B22; border: 1px solid #30363D; border-radius: 8px; padding: 1.5rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 600; color: #58A6FF; margin-top: 0;">
+                <a href="https://github.com/ForgeNexa/forge-core" style="color: inherit; text-decoration: none;">Forge Core</a>
+              </h3>
+              <p style="color: #8B949E; line-height: 1.5;">
+                The shared Go systems foundation providing battle-tested concurrency primitives (bounded worker pools, graceful draining), cryptographic security (AES-256-GCM, path traversal defense), and atomic I/O.
+              </p>
+              <ul style="color: #C9D1D9; padding-left: 1.25rem; font-size: 0.875rem;">
+                <li>Bounded concurrency worker pools with context cancellation</li>
+                <li>AES-256-GCM authenticated encryption for credential stores</li>
+                <li>SafePath validation preventing directory traversal attacks</li>
+                <li>Atomic file writes with automated fallback protection</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section style="background: #161B22; border: 1px solid #30363D; border-radius: 8px; padding: 2rem; margin-bottom: 4rem;">
+          <h2 style="font-size: 1.5rem; font-weight: 600; color: #F0F6FC; margin-top: 0; margin-bottom: 1rem;">
+            Core Architectural Principles
+          </h2>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; color: #8B949E; line-height: 1.6;">
+            <div>
+              <strong style="color: #C9D1D9; display: block; margin-bottom: 0.25rem;">1. Local-First &amp; Private</strong>
+              Your code, secrets, and telemetry stay on your machine. No mandatory accounts, no cloud sync lock-in, and zero background analytics tracking.
+            </div>
+            <div>
+              <strong style="color: #C9D1D9; display: block; margin-bottom: 0.25rem;">2. Go-First Performance</strong>
+              Computationally intensive tasks — filesystem indexing, terminal multiplexing, HTTP execution, and git DAG traversal — run natively in Go.
+            </div>
+            <div>
+              <strong style="color: #C9D1D9; display: block; margin-bottom: 0.25rem;">3. Modular &amp; Independent</strong>
+              Each application operates completely independently as a standalone binary or cooperatively under Forge Hub.
+            </div>
+            <div>
+              <strong style="color: #C9D1D9; display: block; margin-bottom: 0.25rem;">4. 100% Open Source</strong>
+              Released under permissive open-source licenses. Audit the source code, contribute features, and inspect every line on GitHub.
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer role="contentinfo" style="border-top: 1px solid #30363D; padding: 2rem 1.5rem; text-align: center; color: #8B949E; font-size: 0.875rem;">
+        <p style="margin: 0 0 0.5rem 0;">&copy; 2026 ForgeNexa. An open-source developer tools ecosystem.</p>
+        <p style="margin: 0;">
+          <a href="https://github.com/ForgeNexa" style="color: #58A6FF; text-decoration: none;">GitHub Organization</a> &bull;
+          <a href="https://github.com/ForgeNexa/forge-ide" style="color: #58A6FF; text-decoration: none; margin: 0 0.5rem;">Forge IDE</a> &bull;
+          <a href="https://github.com/ForgeNexa/forge-api" style="color: #58A6FF; text-decoration: none; margin: 0 0.5rem;">Forge API</a> &bull;
+          <a href="https://github.com/ForgeNexa/forge-terminal" style="color: #58A6FF; text-decoration: none; margin: 0 0.5rem;">Forge Terminal</a> &bull;
+          <a href="https://github.com/ForgeNexa/forge-git" style="color: #58A6FF; text-decoration: none; margin: 0 0.5rem;">Forge Git</a> &bull;
+          <a href="https://github.com/ForgeNexa/forge-hub" style="color: #58A6FF; text-decoration: none; margin: 0 0.5rem;">Forge Hub</a>
+        </p>
+      </footer>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
