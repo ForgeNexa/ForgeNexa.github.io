@@ -20,7 +20,7 @@ export const PRODUCTS: Product[] = [
     description: 'An open-source, local-first code editor and IDE combining Monaco Editor ergonomics, an authentic 2026 Dark Theme, an IntelliJ-style bottom tool window, and a concurrent Go daemon offloading Git, LSP, and background tasks.',
     status: 'Available',
     version: '0.2.1',
-    repo: 'https://github.com/ForgeNexa/forge',
+    repo: 'https://github.com/ForgeNexa/forge-ide',
     docsUrl: '#/docs/ide',
     features: [
       'Monaco Editor with multi-tab & split editor groups (◫ Split)',
@@ -33,9 +33,9 @@ export const PRODUCTS: Product[] = [
     ],
     techStack: ['Electron 45', 'TypeScript 7', 'React 19', 'Monaco Editor', 'Go 1.26/1.27', 'xterm.js'],
     downloads: [
-      { platform: 'macOS', label: 'macOS Apple Silicon (ARM64)', url: 'https://github.com/ForgeNexa/forge/releases/tag/v0.2.0', ext: '.dmg / .zip' },
-      { platform: 'Windows', label: 'Windows x64 Installer', url: 'https://github.com/ForgeNexa/forge/releases/tag/v0.2.0', ext: '.exe' },
-      { platform: 'Linux', label: 'Linux x64 AppImage & Tarball', url: 'https://github.com/ForgeNexa/forge/releases/tag/v0.2.0', ext: '.AppImage / .tar.gz' }
+      { platform: 'macOS', label: 'macOS Apple Silicon (ARM64)', url: 'https://github.com/ForgeNexa/forge-ide/releases/tag/v0.2.0', ext: '.dmg / .zip' },
+      { platform: 'Windows', label: 'Windows x64 Installer', url: 'https://github.com/ForgeNexa/forge-ide/releases/tag/v0.2.0', ext: '.exe' },
+      { platform: 'Linux', label: 'Linux x64 AppImage & Tarball', url: 'https://github.com/ForgeNexa/forge-ide/releases/tag/v0.2.0', ext: '.AppImage / .tar.gz' }
     ]
   },
   {
@@ -44,7 +44,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Modern, High-Speed API Development & Testing Client',
     description: 'A free, lightweight alternative to Postman built for developers. Design, debug, and test REST, GraphQL, WebSocket, SSE, and gRPC endpoints with local collections and OS-level secure credential isolation.',
     status: 'In Development',
-    repo: 'https://github.com/ForgeNexa/forge-api',
+    repo: 'https://github.com/ForgeNexa/forge-ide-api',
     docsUrl: '#/docs/api',
     features: [
       'Multi-protocol request engine: HTTP/1.1, HTTP/2, GraphQL, WebSocket, SSE & gRPC',
@@ -62,7 +62,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Modern Multi-Pane Terminal for Productive Engineering',
     description: 'A dedicated, high-performance desktop terminal application powered by real operating system PTY supervisors, rich split-panes, session restoration, and deep shell integrations.',
     status: 'In Development',
-    repo: 'https://github.com/ForgeNexa/forge-terminal',
+    repo: 'https://github.com/ForgeNexa/forge-ide-terminal',
     docsUrl: '#/docs/terminal',
     features: [
       'Real POSIX / Windows PTY execution (Zsh, Bash, sh, PowerShell, cmd.exe)',
@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Visual Git Workspace & Interactive Graph Visualizer',
     description: 'An interactive, visual Git client alternative to GitKraken. Inspect repository topology, stage hunks, review side-by-side diffs, and resolve three-way merge conflicts with clear safety safeguards.',
     status: 'In Development',
-    repo: 'https://github.com/ForgeNexa/forge-git',
+    repo: 'https://github.com/ForgeNexa/forge-ide-git',
     docsUrl: '#/docs/git',
     features: [
       'Color-coded topological commit graph and interactive branch visualizer',
@@ -98,7 +98,7 @@ export const PRODUCTS: Product[] = [
     tagline: 'Unified Developer Workspace & Ecosystem Launcher',
     description: 'A central launcher for all ForgeNexa desktop applications, unifying project discovery, shared theme presets, keybinding synchronizations, and quick workspace navigation.',
     status: 'Planned',
-    repo: 'https://github.com/ForgeNexa/forge-hub',
+    repo: 'https://github.com/ForgeNexa/forge-ide-hub',
     docsUrl: '#/docs/hub',
     features: [
       'Central launcher detecting installed Forge IDE, API, Terminal, and Git applications',
