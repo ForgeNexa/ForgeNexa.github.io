@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0F1115"/>
+  <rect x="20" y="20" width="1160" height="590" rx="16" stroke="#242933" stroke-width="4"/>
+  <circle cx="600" cy="240" r="80" fill="#388BFD" fill-opacity="0.15"/>
+  <path d="M600 180L616 224L660 240L616 256L600 300L584 256L540 240L584 224L600 180Z" fill="#388BFD"/>
+  <text x="600" y="380" fill="#FFFFFF" font-size="48" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="bold" text-anchor="middle">ForgeNexa</text>
+  <text x="600" y="430" fill="#8B949E" font-size="24" font-family="-apple-system, BlinkMacSystemFont, sans-serif" text-anchor="middle">Independent Open-Source Developer Tools Ecosystem</text>
+  <text x="600" y="480" fill="#388BFD" font-size="18" font-family="monospace" text-anchor="middle">Forge IDE · Forge API · Forge Terminal · Forge Git · Forge Hub</text>
+</svg>
