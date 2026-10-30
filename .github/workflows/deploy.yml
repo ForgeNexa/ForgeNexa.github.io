@@ -5,6 +5,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      google_site_verification:
+        description: 'Google Search Console Verification Token'
+        required: false
+        default: ''
 
 permissions:
   contents: read
@@ -29,6 +34,15 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: 1.4.4
+
+      - name: Inject Google Search Console Verification Token
+        run: |
+          TOKEN="${{ inputs.google_site_verification || secrets.GOOGLE_SITE_VERIFICATION }}"
+          if [ -n "$TOKEN" ]; then
+            echo "Injecting Google Site Verification Token into index.html..."
+            sed -i.bak "s/verification-token-placeholder/$TOKEN/g" index.html
+            rm -f index.html.bak
+          fi
 
       - name: Install Dependencies
         run: bun install --frozen-lockfile
