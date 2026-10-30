@@ -486,7 +486,7 @@ export const App: React.FC = () => {
           <div className="space-y-6 max-w-3xl">
             <h1 className="text-3xl font-extrabold text-white">About ForgeNexa</h1>
             <p className="text-sm text-forge-muted leading-relaxed">
-              ForgeNexa was founded by <strong className="text-white">Manish Yadav (manish-npx)</strong> and the Yantra Works engineering team. Our goal is to craft high-quality, lightweight, independent alternatives to monolithic developer software.
+              ForgeNexa was founded by <strong className="text-white">Manish Yadav (manish-npx)</strong> and the ForgeNexa engineering team. Our goal is to craft high-quality, lightweight, independent alternatives to monolithic developer software.
             </p>
             <div className="p-6 rounded-2xl bg-forge-panel border border-forge-border space-y-3 text-xs text-forge-muted">
               <h3 className="font-bold text-white text-base">Get in touch:</h3>

@@ -10,7 +10,7 @@ export const IdeArtwork: React.FC<{ className?: string }> = ({ className = '' })
     <circle cx="20" cy="18" r="5" fill="#ED6A5E"/>
     <circle cx="36" cy="18" r="5" fill="#F4BF4F"/>
     <circle cx="52" cy="18" r="5" fill="#61C554"/>
-    <text x="400" y="22" fill="#8B949E" fontSize="11" fontFamily="sans-serif" textAnchor="middle">forge — main.go — Yantra Works</text>
+    <text x="400" y="22" fill="#8B949E" fontSize="11" fontFamily="sans-serif" textAnchor="middle">forge — main.go — ForgeNexa</text>
 
     {/* Activity Bar */}
     <rect x="0" y="36" width="48" height="444" fill="#0A0C0E" stroke="#1E222B" strokeWidth="1"/>
@@ -54,7 +54,7 @@ export const IdeArtwork: React.FC<{ className?: string }> = ({ className = '' })
 
     {/* Syntax Code */}
     <text x="276" y="100" fill="#FF7B72" fontSize="11" fontFamily="monospace">package <tspan fill="#C9D1D9">main</tspan></text>
-    <text x="276" y="120" fill="#FF7B72" fontSize="11" fontFamily="monospace">import <tspan fill="#A5D6FF">"github.com/yantra-works/my-forge/pkg/server"</tspan></text>
+    <text x="276" y="120" fill="#FF7B72" fontSize="11" fontFamily="monospace">import <tspan fill="#A5D6FF">"github.com/forgenexa/my-forge/pkg/server"</tspan></text>
     <text x="276" y="160" fill="#FF7B72" fontSize="11" fontFamily="monospace">func <tspan fill="#D2A8FF">main</tspan>() &#123;</text>
     <text x="296" y="180" fill="#C9D1D9" fontSize="11" fontFamily="monospace">srv := server.<tspan fill="#79C0FF">NewServer</tspan>()</text>
     <text x="296" y="200" fill="#C9D1D9" fontSize="11" fontFamily="monospace">srv.<tspan fill="#79C0FF">Serve</tspan>(os.Stdin, os.Stdout)</text>
